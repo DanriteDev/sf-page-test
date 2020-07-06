@@ -284,6 +284,12 @@ left: 240;
 	padding: 25px;
 }
 
+.supermicrowhy {
+	margin-top: 95px;
+	color: white;
+	padding: 50px;
+}
+
 .img-col {
 	margin-top: 150px;
 	text-align: center;
@@ -294,15 +300,12 @@ left: 240;
  	display: inline-block;
  }
 
-.supermicrowhy {
-	margin-top: 95px;
-	color: white;
-	padding: 50px;
+.img-col img{
+	width: 200px;
+	height: auto;
 }
 
-.img-col .supermicrologo {
-	width: 200px;
-}
+
 
 
 .paralax {
