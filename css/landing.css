@@ -280,10 +280,29 @@ left: 240;
 
 }
 
+.whysupermicro {
+	padding: 25px;
+}
+
+.img-col {
+	margin-top: 150px;
+	text-align: center;
+}
+ .img-col button {
+ 	margin-top: 50px;
+ 	align-content: center;
+ 	display: inline-block;
+ }
+
 .supermicrowhy {
-	height: 500px;
+	margin-top: 95px;
 	color: white;
 	padding: 50px;
+}
+
+.supermicrologo {
+	
+	width: 200px;
 }
 
 
