@@ -300,14 +300,6 @@ left: 240;
  	display: inline-block;
  }
 
-.img-col img{
-	width: 200px;
-	height: auto;
-}
-
-
-
-
 .paralax {
 background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("https://serverfactory.co.uk/pub/media/wysiwyg/media/server.jpg");
     min-height: 500px;  
