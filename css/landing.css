@@ -94,7 +94,7 @@ content:"\02C5";
 }
 
 .transparent {
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0,0,0,0.05);
 	height: 100%;
 	width: 100%;	
 	position: relative;
@@ -181,16 +181,24 @@ content:"\02C5";
 
 .content-blk {
 color: white;
+border-top: 15px solid rgba(255,255,255,0.0);
 min-height: 320px;
-padding-top: 50px;
+padding-top: 40px;
+transition: 0.2s ease-out;
 }
 
-.content-blk:hover {
-background-color: rgba(0,0,0,0.6);
--webkit-box-shadow: 0 10px 12px -5px black;
--moz-box-shadow: 0 10px 12px -5px black;
-box-shadow: 0 10px 12px -5px black;
+.content-blk:hover  {
+
+	border-top: 15px solid lightgrey;
+background-color: rgba(0,0,0,0.3);
+-webkit-box-shadow: 0 6px 12px -5px rgba(0,0,0,0.5);
+-moz-box-shadow: 0 6px 1px -5px rgba(0,0,0,0.5);
+box-shadow: 0 6px 12px -5px rgba(0,0,0,0.5);
+transition: 0.2s ease-in;
 }
+
+
+
 
 .icon img {
 width: 15%;
@@ -241,7 +249,11 @@ font-size: 30px;
  	margin-top: 50px;
  	align-content: center;
  	display: inline-block;
- }
+ 	border: none;
+ 	padding: 8px;
+ 	border-radius: 5px;
+ 	 background-color: rgba(255,255,255,0.5);
+ }	
 
 .paralax {
 background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("https://serverfactory.co.uk/pub/media/wysiwyg/media/server.jpg");
