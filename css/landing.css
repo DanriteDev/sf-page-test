@@ -223,6 +223,38 @@ font-size: 30px;
 
 }
 
+.whysupermicro {
+	padding: 25px;
+}
+
+.supermicrowhy {
+	margin-top: 95px;
+	color: white;
+	padding: 50px;
+}
+
+.img-col {
+	margin-top: 150px;
+	text-align: center;
+}
+ .img-col button {
+ 	margin-top: 50px;
+ 	align-content: center;
+ 	display: inline-block;
+ }
+
+.paralax {
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("https://serverfactory.co.uk/pub/media/wysiwyg/media/server.jpg");
+    min-height: 500px;  
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+
+
+
 @media screen and (max-width: 1280px){
 	.wrap {
 		width: 100%;
@@ -279,34 +311,3 @@ left: 240;
 }
 
 }
-
-.whysupermicro {
-	padding: 25px;
-}
-
-.supermicrowhy {
-	margin-top: 95px;
-	color: white;
-	padding: 50px;
-}
-
-.img-col {
-	margin-top: 150px;
-	text-align: center;
-}
- .img-col button {
- 	margin-top: 50px;
- 	align-content: center;
- 	display: inline-block;
- }
-
-.paralax {
-background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url("https://serverfactory.co.uk/pub/media/wysiwyg/media/server.jpg");
-    min-height: 500px;  
-    background-attachment: fixed; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-}
-
-
