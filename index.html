@@ -4,6 +4,7 @@
 	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="css/landing.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -45,7 +46,7 @@
     <div class="carousel-item active">
       <div class="d-block w-100 blueback">
 		<div class="wrap">
-			<div class="transparent transanimation">
+			<div class="transparent">
 				<img class="banner-logo" src="img/3487.png">
 				<h1 class="banner-title">Authorised Reseller</h1>
 				<ul class="key-features-banner">
@@ -133,7 +134,15 @@
 <div class="whatwespec">
 	<div class="wrap">
 		<h3>What we specialise in</h3>
-		<div class="row">
+		<div class="row"
+		data-aos-offset="-50"
+data-aos="fade-up"
+    data-aos-easing="ease-in"
+    data-aos-mirror="true"
+    data-aos-anchor-placement="top-center"
+    data-aos-once="true"
+
+		>
 			<div class="col-md-4">
 				<div class="specbox">
 					<div class="content-blk content-blk-1 color2 top-border">
@@ -162,7 +171,12 @@
 				</div>
 			</div>
 		</div>	
-		<div class="row">
+		<div class="row" data-aos="fade-up"
+    data-aos-easing="ease-in"
+    data-aos-mirror="true"
+    data-aos-anchor-placement="top-center"
+    data-aos-once="true">
+
 			<div class="col-md-4">
 				<div class="specbox">
 					<div class="content-blk content-blk-4 color1 top-border">
@@ -253,5 +267,9 @@ This is just to give the scrolling effect
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
